@@ -23,6 +23,7 @@ public:
         for(auto i:mp){
             if(i.second==1) ans.push_back(i.first);
         }
+        str = "";
         return ans;
     }
 };
