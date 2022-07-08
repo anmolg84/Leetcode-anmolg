@@ -1,0 +1,4 @@
+**15. 3Sum** {Sorting must be done in all the three approaches}
+1. Approach 1: Using 3  nested loop i,j,k check if nums[i]+nums[j]+nums[k]=0 add it to set vector and then copy set to answer vector; Time : O(N^3+Nlogn)
+2. Approach 2 : Using 2 nested loop and binary search on -(nums[i]+nums[j]) in reamaining vector; Time(NlogN+N^2logN)
+3. Approach 3: Using single loop (i:0->n-1) then two pointer j = i+1,k=n-1, while j<k check for each pair of i,j,k ; to remove duplicates 3 imp statements 1.while(front<back && nums[front]==vc[1]) front++; 2.while(front<back && nums[back]==vc[2]) back--; 3. while (i + 1 < n && nums[i + 1] == nums[i]) ++i; Time : O(N^2+NlogN);  {Optimized Approach}
