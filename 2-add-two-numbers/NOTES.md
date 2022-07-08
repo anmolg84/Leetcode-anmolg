@@ -1,0 +1,2 @@
+**2. Add Two Numbers**
+Approach : traverse on LL1, LL2 and carry if LL1 exist sum+=LL1->val , if LL2 exist sum+=LL2->val , if carry exist sum+=carry make new node and store sum%10 and make carry = sum/10
