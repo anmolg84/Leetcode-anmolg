@@ -1,1 +1,2 @@
-​
+**28. Implement strStr()**
+Approach : manually check if first charcter of needle matches with haystick then check over loop when it checks if loop count equal to length of needle return i else continue; Edge case for m>n return -1; Time: O(NM)
