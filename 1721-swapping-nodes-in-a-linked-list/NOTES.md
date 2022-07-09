@@ -1,1 +1,2 @@
-​
+**1721. Swapping Nodes in a Linked List**
+Approach : Using Slow fast pointer similarly in remove nth node get nth node from beg by fast pointer traversal till n and then move simulatneously slow and fast to get nth node form end change data values; Time: O(N)
