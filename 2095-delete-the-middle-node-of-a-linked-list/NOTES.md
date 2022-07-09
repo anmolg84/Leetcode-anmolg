@@ -1,1 +1,3 @@
-​
+**2095. Delete the Middle Node of a Linked List**
+1. Approach 1: Count number of node (n) and traverse till floor(n/2) and change links; Time: O(N+(N/2))
+2. Approach 2: Count Number of node (n) and use slow fast pointer move them simultaneously slow by one and fast by two until fast->next && fast->next->next, then if n is even your middle is slow->next and if odd your middle is slow change values and link and return head; Time : O(N+(N/2))
