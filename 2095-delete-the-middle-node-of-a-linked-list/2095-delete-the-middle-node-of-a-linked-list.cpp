@@ -31,6 +31,7 @@ public:
             slow->val = slow->next->val;
             slow->next = slow->next->next;
         }
+        delete temp;
         return head;
     }
 };
