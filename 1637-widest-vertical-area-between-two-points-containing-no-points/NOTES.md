@@ -1,0 +1,2 @@
+**1637. Widest Vertical Area Between Two Points Containing No Points**
+Approach: Simply we are concern with x cordinates so sort points and then return maximum consecutive elements difference; Time: O(NlogN+N)
