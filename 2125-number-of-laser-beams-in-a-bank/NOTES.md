@@ -1,1 +1,2 @@
-​
+**2125. Number of Laser Beams in a Bank**
+1. Approach : Simple Implementation , count number of security device in each row and store it in map or vector and then iterate over vector and in ans + = (vc[i] * last) update last; Time: O(MN+M)
