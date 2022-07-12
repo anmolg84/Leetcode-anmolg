@@ -1,1 +1,2 @@
-​
+**289. Game of Life**
+Approach : Catch is you have to create a new array and then analyze for each element whether it is 1/0. a good approach for all each direction is a: i-1->i+2, b: j-1->j+2 {it covers every element over neighbour} find a count for each element and apply the rule; Time: O(9NM+NM)
