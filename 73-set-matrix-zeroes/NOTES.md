@@ -1,0 +1,3 @@
+**73. Set Matrix Zeroes**
+1. Approach 1: Keep track of row and column in set/map/vector and make that row and column zero; Time: O(NM + NM)
+2. Approach 2: Make first row and first col as dummy row and column , first check for first row and col , then iterate from 1 to m and 1 to n if element zero make drow = dcol = 0 , Now iterate again if drow or dcol is zero make that element zero and then check for first row and first col if zero make them zero; Time:(NM+NM) {Uses Constant Space}
